@@ -145,22 +145,22 @@ body {
     width: 100%;
     text-align: center;
     height: 420px;
-    background: #8a8a8a;
+    background: url("./img/Mia-cover.jpg") 50% no-repeat;
     position: relative;
     color: white;
 }
 
-.promo-hero .button.white-hollow {
+/* .promo-hero .button.white-hollow {
     border: 1px solid #fefefe;
     color: #fefefe;
     background-color: transparent;
     transition: border 0.5s ease;
-}
-
+} */
+/* 
 .promo-hero .button.white-hollow:hover, .promo-hero .button.white-hollow:active, .promo-hero .button.white-hollow:focus {
     border: 1px solid #b2b2b2;
     transition: border 0.5s ease;
-}
+} */
 
 .promo-hero-content {
     z-index: 10;
@@ -175,21 +175,23 @@ body {
 .promo-hero-title {
     line-height: 1.25em;
     margin-bottom: 1rem;
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
   }
   
   .promo-hero-description {
     margin-bottom: 1rem;
   }
   
-  .promo-hero-bg-image {
-    overflow: hidden;
-    background-image: url(https://placehold.it/2000x900);
+  /* .promo-hero-bg-image {
+    
+    background-image: url("./img/Mia-cover.jpg") 50% no-repeat;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-  }
+  } */
   
-  .promo-hero-bg-image:before {
+  /* .promo-hero-bg-image:before {
     content: '';
     display: block;
     width: 100%;
@@ -197,7 +199,20 @@ body {
     background: rgba(0, 0, 0, 0.4);
     position: relative;
     z-index: 1;
+} */
+
+/* TOD */
+.greeting {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
 }
+
+
+
+
+
 
 /* SOCIAL BUTTONS-TOP */
 @charset "UTF-8";
@@ -381,16 +396,13 @@ body {
   text-transform: uppercase;
 }
 
-
-
-
-
 /* ABOUT ME */
 
 .about-the-author {
     background-color: #fefefe;
     padding: 1rem;
     border: 1px solid #cacaca;
+    margin-bottom: 2rem;
   }
   
   .about-the-author .separator-left {
@@ -430,7 +442,7 @@ body {
     margin-bottom: 0.7rem;
   }
   
-  .about-the-author .author-social .fa-stack {
+  /* .about-the-author .author-social .fa-stack {
     display: inline-block;
   }
   
@@ -457,26 +469,28 @@ body {
   .about-the-author .author-social .fa-stack.linkedin:hover, .about-the-author .author-social .fa-stack.linkedin:focus {
     color: #007bb5;
   }
-  
+   */
   .about-the-author .author-image {
-    border: 1px solid #cacaca;
+   
+    border-radius: 10%;
+    padding: 2rem 2rem;
   }
   
 
 /* SKILLS / CARD REVEAL */
 
-.profile-card-action-icons {
+/* .profile-card-action-icons {
   background-color: #fefefe;
   font-weight: 400;
   margin-bottom: 1.6rem;
   border-radius: 0.125rem;
   box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.18), 0 0.125rem 2px rgba(0, 0, 0, 0.36);
-}
+} */
 
-.profile-card-action-icons .card-section {
+/* .profile-card-action-icons .card-section {
   background-color: inherit;
   padding: 0.5rem 0 0;
-}
+} */
 
 .profile-card-action-icons .card-section .profile-card-header,
 .profile-card-action-icons .card-section .profile-card-about {
@@ -493,32 +507,32 @@ body {
           align-items: flex-start;
 }
 
-.profile-card-action-icons .card-section .profile-card-header .profile-card-avatar {
+/* .profile-card-action-icons .card-section .profile-card-header .profile-card-avatar {
   margin-right: 0.5rem;
-}
-
+} */
+/* 
 .profile-card-action-icons .card-section .profile-card-header .profile-card-avatar .avatar-image {
   border-radius: 50%;
   width: 3.75rem;
   height: 3.75rem;
-}
+} */
 
-.profile-card-action-icons .card-section .profile-card-header .profile-card-author {
+/* .profile-card-action-icons .card-section .profile-card-header .profile-card-author {
   -webkit-flex: 1 0 0;
       -ms-flex: 1 0 0px;
           flex: 1 0 0;
   margin-top: 0.3rem;
   padding-bottom: 0;
-}
+} */
 
-.profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-title,
+/* .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-title,
 .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-description {
   margin-bottom: 0;
 }
 
 .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-title {
   color: #0a0a0a;
-}
+} */
 
 .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-description {
   color: #8a8a8a;
