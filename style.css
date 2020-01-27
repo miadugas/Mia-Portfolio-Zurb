@@ -9,6 +9,11 @@ body {
     font-weight:normal;
 }
 
+.w-date {
+  color: #4e4e4e;
+  font-size: .8rem;
+}
+
 /* top nav */
 .top-bar, .top-bar ul {
     background: white;
@@ -205,8 +210,9 @@ body {
 .greeting {
   color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
+  text-shadow: 1px 1px 2px #0a0a0a;
 }
 
 
@@ -427,7 +433,7 @@ body {
   .about-the-author .separator-left::after {
     position: relative;
     width: 5rem;
-    border-bottom: 0.125rem solid #1779ba;
+    border-bottom: 0.125rem solid #f56eab;
     margin: 0.3rem auto 0;
     margin-left: 0;
   }
@@ -479,6 +485,48 @@ body {
 
 /* SKILLS / CARD REVEAL */
 
+.product-image-gallery {
+  background-color: #fefefe;
+  padding: 1.5rem;
+}
+
+.pdp-product-image {
+  margin-bottom: 5px;
+background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  
+}
+
+.product-thumbs a {
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 0 !important;
+
+}
+
+.product-thumbs a img {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: solid 4px #fefefe;
+  border-radius: 0;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  line-height: 0;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
 /* .profile-card-action-icons {
   background-color: #fefefe;
   font-weight: 400;
@@ -492,7 +540,7 @@ body {
   padding: 0.5rem 0 0;
 } */
 
-.profile-card-action-icons .card-section .profile-card-header,
+/* .profile-card-action-icons .card-section .profile-card-header,
 .profile-card-action-icons .card-section .profile-card-about {
   border-bottom: 0.0625rem solid #cacaca;
   padding: 0.7rem 1rem;
@@ -505,7 +553,7 @@ body {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
-}
+} */
 
 /* .profile-card-action-icons .card-section .profile-card-header .profile-card-avatar {
   margin-right: 0.5rem;
@@ -533,7 +581,7 @@ body {
 .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-title {
   color: #0a0a0a;
 } */
-
+/* 
 .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-description {
   color: #8a8a8a;
   font-size: 0.9em;
@@ -619,7 +667,7 @@ body {
 .profile-card-action-icons .card-section .profile-card-action .action-area .action-anchor .fa {
   color: #1779ba;
 }
-
+ */
 
 /* .profile-card-action-icons {
     background-color: #fefefe;
@@ -962,6 +1010,65 @@ body {
         height: 400px;  /* The height is 400 pixels */
         width: 100%;  /* The width is the width of the web page */
     }
+/* CONTACT STUFF */
+    
+.marketing-site-features {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.marketing-site-features .fa {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1779ba;
+}
+
+.marketing-site-features .marketing-site-features-title {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-features {
+    text-align: left;
+  }
+}
+
+.marketing-site-features-headline {
+  text-align: center;
+  font-weight: bolder;
+
+}
+
+.marketing-site-features-subheadline {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact_block_icon {
+  background: none repeat scroll 0 0 #f56eab;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}	
+    
+.contact_block_icon2 {
+  background: none repeat scroll 0 0 #7cc576;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}	
+
+.contact_block_icon3 {
+  background: none repeat scroll 0 0 #49b5e7;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+}	
+
 
 
 /* Footer   */
@@ -1174,3 +1281,41 @@ body {
   .button-group-option .button + .button {
     margin-left: 0.35rem;
   }
+
+  /* To Top */
+  .top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+    
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3em 3em 0;
+    border-radius: 50%;
+    padding: .25em;
+    width: 40px;
+    height: 40px;
+    background-color: #f8f8f8;
+    
+    &.show {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    &.hide {
+      visibility: hidden;
+      opacity: 0;
+    }
+  
+   
+  
+  
+
+  .top{
+    font-family: "FontAwesome";
+    content: "";
+  }
+  
