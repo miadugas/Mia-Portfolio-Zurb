@@ -1,4 +1,6 @@
 
+
+
 body {
     background-color: white;
     color: #4e4e4e;
@@ -152,35 +154,28 @@ body {
     }
 
     /* HERO */
-.promo-hero {
-    width: 100%;
-    text-align: center;
-    height: 420px;
-    background: url("./img/Mia-cover.jpg") 50% no-repeat;
-    position: relative;
-    color: white;
+
+.hero-section {
+  background: url("./img/Mia-cover.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.promo-hero-content {
-    z-index: 10;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
 }
 
-.promo-hero-title {
-    line-height: 1.25em;
-    margin-bottom: 1rem;
-    color: #fefefe;
-    text-shadow: 1px 1px 2px #0a0a0a;
-  }
-  
-  .promo-hero-description {
-    margin-bottom: 1rem;
-  }
 
 /* TOD */
 .greeting {
@@ -482,6 +477,10 @@ background-repeat: no-repeat;
   color: #8a8a8a;
 }
 
+.orbit-bullets {
+  margin-top: 0em;
+}
+
 /* CONTACT ME */
 .contact-us-section {
     padding: 2rem;
@@ -596,6 +595,7 @@ background-repeat: no-repeat;
     }
 
 /* CONTACT STUFF */
+
 .marketing-site-features {
   text-align: center;
   padding: 2rem 0;
@@ -653,7 +653,10 @@ background-repeat: no-repeat;
   padding: 0.5em 0.6em;
 }	
 
+
+
 /* Footer   */
+
 .social-footer {
     padding: 1rem;
     padding-right: 35px;
@@ -880,7 +883,7 @@ background-repeat: no-repeat;
     width: 40px;
     height: 40px;
     background-color: #f8f8f8;
-  }
+    
     &.show {
       visibility: visible;
       opacity: 1;
@@ -890,6 +893,9 @@ background-repeat: no-repeat;
       visibility: hidden;
       opacity: 0;
     }
+  
+   
+  
   
 
   .top{
