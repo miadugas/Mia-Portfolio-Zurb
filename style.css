@@ -1,7 +1,4 @@
 
-
-
-
 body {
     background-color: white;
     color: #4e4e4e;
@@ -164,18 +161,6 @@ body {
     color: white;
 }
 
-/* .promo-hero .button.white-hollow {
-    border: 1px solid #fefefe;
-    color: #fefefe;
-    background-color: transparent;
-    transition: border 0.5s ease;
-} */
-/* 
-.promo-hero .button.white-hollow:hover, .promo-hero .button.white-hollow:active, .promo-hero .button.white-hollow:focus {
-    border: 1px solid #b2b2b2;
-    transition: border 0.5s ease;
-} */
-
 .promo-hero-content {
     z-index: 10;
     position: absolute;
@@ -196,24 +181,6 @@ body {
   .promo-hero-description {
     margin-bottom: 1rem;
   }
-  
-  /* .promo-hero-bg-image {
-    
-    background-image: url("./img/Mia-cover.jpg") 50% no-repeat;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  } */
-  
-  /* .promo-hero-bg-image:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    position: relative;
-    z-index: 1;
-} */
 
 /* TOD */
 .greeting {
@@ -223,11 +190,6 @@ body {
   text-align: center;
   text-shadow: 1px 1px 2px #0a0a0a;
 }
-
-
-
-
-
 
 /* SOCIAL BUTTONS-TOP */
 @charset "UTF-8";
@@ -412,7 +374,6 @@ body {
 }
 
 /* ABOUT ME */
-
 .about-the-author {
     background-color: #fefefe;
     padding: 1rem;
@@ -457,43 +418,13 @@ body {
     margin-bottom: 0.7rem;
   }
   
-  /* .about-the-author .author-social .fa-stack {
-    display: inline-block;
-  }
-  
-  .about-the-author .author-social .fa-stack.facebook {
-    color: #4c70ba;
-  }
-  
-  .about-the-author .author-social .fa-stack.facebook:hover, .about-the-author .author-social .fa-stack.facebook:focus {
-    color: #3b5998;
-  }
-  
-  .about-the-author .author-social .fa-stack.twitter {
-    color: #83c3f3;
-  }
-  
-  .about-the-author .author-social .fa-stack.twitter:hover, .about-the-author .author-social .fa-stack.twitter:focus {
-    color: #55acee;
-  }
-  
-  .about-the-author .author-social .fa-stack.linkedin {
-    color: #009ee8;
-  }
-  
-  .about-the-author .author-social .fa-stack.linkedin:hover, .about-the-author .author-social .fa-stack.linkedin:focus {
-    color: #007bb5;
-  }
-   */
   .about-the-author .author-image {
-   
     border-radius: 10%;
     padding: 2rem 2rem;
   }
   
 
 /* SKILLS / CARD REVEAL */
-
 .product-image-gallery {
   background-color: #fefefe;
   padding: 1.5rem;
@@ -504,7 +435,6 @@ body {
 background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
-  
 }
 
 .product-thumbs a {
@@ -528,334 +458,6 @@ background-repeat: no-repeat;
   border: none;
 }
 
-
-
-
-
-
-
-
-
-/* .profile-card-action-icons {
-  background-color: #fefefe;
-  font-weight: 400;
-  margin-bottom: 1.6rem;
-  border-radius: 0.125rem;
-  box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.18), 0 0.125rem 2px rgba(0, 0, 0, 0.36);
-} */
-
-/* .profile-card-action-icons .card-section {
-  background-color: inherit;
-  padding: 0.5rem 0 0;
-} */
-
-/* .profile-card-action-icons .card-section .profile-card-header,
-.profile-card-action-icons .card-section .profile-card-about {
-  border-bottom: 0.0625rem solid #cacaca;
-  padding: 0.7rem 1rem;
-}
-
-.profile-card-action-icons .card-section .profile-card-header {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-} */
-
-/* .profile-card-action-icons .card-section .profile-card-header .profile-card-avatar {
-  margin-right: 0.5rem;
-} */
-/* 
-.profile-card-action-icons .card-section .profile-card-header .profile-card-avatar .avatar-image {
-  border-radius: 50%;
-  width: 3.75rem;
-  height: 3.75rem;
-} */
-
-/* .profile-card-action-icons .card-section .profile-card-header .profile-card-author {
-  -webkit-flex: 1 0 0;
-      -ms-flex: 1 0 0px;
-          flex: 1 0 0;
-  margin-top: 0.3rem;
-  padding-bottom: 0;
-} */
-
-/* .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-title,
-.profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-description {
-  margin-bottom: 0;
-}
-
-.profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-title {
-  color: #0a0a0a;
-} */
-/* 
-.profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-description {
-  color: #8a8a8a;
-  font-size: 0.9em;
-}
-
-.profile-card-action-icons .card-section .profile-card-about .about-title {
-  text-transform: uppercase;
-}
-
-.profile-card-action-icons .card-section .profile-card-about .separator-left {
-  text-align: left;
-}
-
-.profile-card-action-icons .card-section .profile-card-about .separator-left::before, .profile-card-action-icons .card-section .profile-card-about .separator-left::after {
-  display: table;
-  content: ' ';
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
-.profile-card-action-icons .card-section .profile-card-about .separator-left::after {
-  clear: both;
-}
-
-.profile-card-action-icons .card-section .profile-card-about .separator-left::after {
-  position: relative;
-  width: 3rem;
-  border-bottom: 0.125rem solid #1779ba;
-  margin: 0.3rem auto 0;
-  margin-left: 0;
-}
-
-.profile-card-action-icons .card-section .profile-card-about .about-content {
-  margin-bottom: 0;
-}
-
-.profile-card-action-icons .card-section .profile-card-about .about-skills {
-  margin-top: 0.6rem;
-}
-
-.profile-card-action-icons .card-section .profile-card-about .about-skills ul.arrow {
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
-  margin-bottom: 0;
-}
-
-.profile-card-action-icons .card-section .profile-card-about .about-skills ul.arrow li:before {
-  content: '\f006';
-  font-family: 'FontAwesome';
-  float: left;
-  color: #1779ba;
-  margin-right: 0.5rem;
-}
-
-.profile-card-action-icons .card-section .profile-card-action {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.profile-card-action-icons .card-section .profile-card-action .action-area {
-  width: 20%;
-  border-right: 0.0625rem solid #cacaca;
-  text-align: center;
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
-}
-
-.profile-card-action-icons .card-section .profile-card-action .action-area:last-of-type {
-  border-right: none;
-}
-
-.profile-card-action-icons .card-section .profile-card-action .action-area .action-anchor.has-tip {
-  border-bottom: none;
-  cursor: pointer;
-}
-
-.profile-card-action-icons .card-section .profile-card-action .action-area .action-anchor .fa {
-  color: #1779ba;
-}
- */
-
-/* .profile-card-action-icons {
-    background-color: #fefefe;
-    font-weight: 400;
-    margin-bottom: 1.6rem;
-    border-radius: 0.125rem;
-    box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.18), 0 0.125rem 2px rgba(0, 0, 0, 0.36);
-  }
-  
-  .profile-card-action-icons .card-section {
-    background-color: inherit;
-    padding: 0.5rem 0 0;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-header,
-  .profile-card-action-icons .card-section .profile-card-about {
-    border-bottom: 0.0625rem solid #cacaca;
-    padding: 0.7rem 1rem;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-header {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-header .profile-card-avatar {
-    margin-right: 0.5rem;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-header .profile-card-avatar .avatar-image {
-    border-radius: 50%;
-    width: 3.75rem;
-    height: 3.75rem;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-header .profile-card-author {
-    -webkit-flex: 1 0 0;
-        -ms-flex: 1 0 0px;
-            flex: 1 0 0;
-    margin-top: 0.3rem;
-    padding-bottom: 0;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-title,
-  .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-description {
-    margin-bottom: 0;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-title {
-    color: #0a0a0a;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-header .profile-card-author .author-description {
-    color: #8a8a8a;
-    font-size: 0.9em;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-about .about-title {
-    text-transform: uppercase;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-about .separator-left {
-    text-align: left;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-about .separator-left::before, .profile-card-action-icons .card-section .profile-card-about .separator-left::after {
-    display: table;
-    content: ' ';
-    -webkit-flex-basis: 0;
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-about .separator-left::after {
-    clear: both;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-about .separator-left::after {
-    position: relative;
-    width: 3rem;
-    border-bottom: 0.125rem solid #1779ba;
-    margin: 0.3rem auto 0;
-    margin-left: 0;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-about .about-content {
-    margin-bottom: 0;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-about .about-skills {
-    margin-top: 0.6rem;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-about .about-skills ul.arrow {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-about .about-skills ul.arrow li:before {
-    content: '\f006';
-    font-family: 'FontAwesome';
-    float: left;
-    color: #1779ba;
-    margin-right: 0.5rem;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-action {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-action .action-area {
-    width: 20%;
-    border-right: 0.0625rem solid #cacaca;
-    text-align: center;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-action .action-area:last-of-type {
-    border-right: none;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-action .action-area .action-anchor.has-tip {
-    border-bottom: none;
-    cursor: pointer;
-  }
-  
-  .profile-card-action-icons .card-section .profile-card-action .action-area .action-anchor .fa {
-    color: #1779ba;
-  }
-   */
-  
-
-
-
-
-/* .card-reveal-wrapper {
-    position: relative;
-  }
-  
-  .card-reveal-wrapper .open-button,
-  .card-reveal-wrapper .close-button {
-    cursor: pointer;
-    float: right;
-    font-size: 0.875rem;
-    padding-left: 0.5rem;
-    text-align: right;
-    width: 100%;
-  }
-  
-  .card-reveal-wrapper .card-reveal {
-    background: #fefefe;
-    bottom: 0;
-    display: block;
-    left: 0;
-    overflow: hidden;
-    padding: 1rem;
-    position: absolute;
-    right: 0;
-    top: 100%;
-    transition: top 0.6s ease-in-out;
-  }
-  
-  .card-reveal-wrapper .card-reveal.open {
-    top: 0;
-    z-index: 1;
-  }
-   */
 /* SLIDER */
 
 /* big slider */
@@ -879,33 +481,6 @@ background-repeat: no-repeat;
   font-size: 0.9rem;
   color: #8a8a8a;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* CONTACT ME */
 .contact-us-section {
@@ -1019,8 +594,8 @@ background-repeat: no-repeat;
         height: 400px;  /* The height is 400 pixels */
         width: 100%;  /* The width is the width of the web page */
     }
+
 /* CONTACT STUFF */
-    
 .marketing-site-features {
   text-align: center;
   padding: 2rem 0;
@@ -1078,10 +653,7 @@ background-repeat: no-repeat;
   padding: 0.5em 0.6em;
 }	
 
-
-
 /* Footer   */
-
 .social-footer {
     padding: 1rem;
     padding-right: 35px;
@@ -1308,7 +880,7 @@ background-repeat: no-repeat;
     width: 40px;
     height: 40px;
     background-color: #f8f8f8;
-    
+  }
     &.show {
       visibility: visible;
       opacity: 1;
@@ -1318,9 +890,6 @@ background-repeat: no-repeat;
       visibility: hidden;
       opacity: 0;
     }
-  
-   
-  
   
 
   .top{
